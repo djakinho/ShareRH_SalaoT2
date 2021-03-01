@@ -18,10 +18,6 @@
         public void Alterar(string nome, string telefone)
         {
             Nome = string.IsNullOrEmpty(nome) ? Nome : nome;
-            //Nome = nome ?? Nome;
-            //Nome = "";
-            //Nome = null;
-
             Telefone = string.IsNullOrEmpty(telefone) ? Telefone : telefone;
         }
 

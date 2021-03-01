@@ -6,10 +6,7 @@ namespace SalaoT2.Dominio
 {
     public class Funcionario
     {
-        public Funcionario()
-        {
-            Servicos = new List<Servico>();
-        }
+        public Funcionario() => Servicos = new List<Servico>();
 
         public int Matricula { get; set; }
         public string Nome { get; set; }
@@ -43,10 +40,7 @@ namespace SalaoT2.Dominio
             Cargo = cargo;
         }
 
-        public void IncluirServico(Servico serv)
-        {
-            Servicos.Add(serv);
-        }
+        public void IncluirServico(Servico serv) => Servicos.Add(serv);
 
         public void ExcluirServico(int id)
         {

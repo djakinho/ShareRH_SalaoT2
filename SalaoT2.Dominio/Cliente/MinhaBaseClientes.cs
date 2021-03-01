@@ -7,15 +7,9 @@ namespace SalaoT2.Dominio
     {
         public List<Cliente> Clientes { get; set; }
 
-        public MinhaBaseClientes()
-        {
-            Clientes = new List<Cliente>();
-        }
+        public MinhaBaseClientes() => Clientes = new List<Cliente>();
 
-        public void Incluir(Cliente cliente)
-        {
-            Clientes.Add(cliente);            
-        }
+        public void Incluir(Cliente cliente) => Clientes.Add(cliente);
 
         public void IncluirLista(Cliente cliente1, Cliente cliente2)
         {
@@ -32,9 +26,6 @@ namespace SalaoT2.Dominio
             }
         }
 
-        public void ExcluirUmCliente(int id)
-        {
-            Clientes.RemoveAll(cli => cli.Id == id);
-        }
+        public void ExcluirUmCliente(int id) => Clientes.RemoveAll(cli => cli.Id == id);
     }
 }

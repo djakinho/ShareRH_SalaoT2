@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{9922774E-C5D2-47A6-BD2C-4402FBDA667A}|Default">
+  <MonoDevelop.Ide.ItemProperties.SalaoT2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SalaoT2/Program.cs">
+    <Files>
+      <File FileName="SalaoT2/Program.cs" Line="16" Column="68" />
+      <File FileName="SalaoT2.Dominio/Agenda/MinhaBaseAgendamento.cs" Line="32" Column="45" />
+      <File FileName="SalaoT2.Dominio/Agenda/Agendamento.cs" Line="50" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SalaoT2" expanded="True">
+            <Node name="SalaoT2" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="SalaoT2.Dominio" expanded="True">
+              <Node name="Agenda" expanded="True" />
+              <Node name="Financa" expanded="True" />
+              <Node name="Servico" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

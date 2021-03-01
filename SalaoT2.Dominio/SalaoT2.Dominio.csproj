@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Funcionario\" />
+    <Folder Include="Agenda\" />
+    <Folder Include="Servico\" />
+    <Folder Include="Cliente\" />
+    <Folder Include="Financa\" />
+  </ItemGroup>
 </Project>
