@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SalaoT2.Dominio
 {
-    public class Funcionario
+    public class Funcionario : IEntity
     {
         public Funcionario() => Servicos = new List<Servico>();
 

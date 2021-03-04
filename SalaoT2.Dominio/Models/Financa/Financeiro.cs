@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 namespace SalaoT2.Dominio
 {
-    public class Financeiro
+    public class Financeiro : IEntity
     {
         public int Id { get; set; }
         public Agendamento Agendamento { get; set; }

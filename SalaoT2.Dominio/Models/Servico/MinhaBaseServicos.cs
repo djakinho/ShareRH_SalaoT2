@@ -3,8 +3,9 @@ using System.Linq;
 
 namespace SalaoT2.Dominio
 {
-    public class MinhaBaseServicos
+    public class MinhaBaseServicos : IEntity
     {
+        public int Id { get; set ; }
         public List<Servico> Servicos { get; set; }
 
         public MinhaBaseServicos()

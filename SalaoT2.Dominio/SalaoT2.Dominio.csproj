@@ -5,10 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Funcionario\" />
-    <Folder Include="Agenda\" />
-    <Folder Include="Servico\" />
-    <Folder Include="Cliente\" />
-    <Folder Include="Financa\" />
+    <Folder Include="Models\Funcionario\" />
+    <Folder Include="Models\Agenda\" />
+    <Folder Include="Models\Servico\" />
+    <Folder Include="Models\Cliente\" />
+    <Folder Include="Models\Financa\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 </Project>

@@ -2,8 +2,9 @@
 
 namespace SalaoT2.Dominio
 {
-    public class Turno
+    public class Turno : IEntity
     {
+        public int Id { get; set; }
         public DateTime EntradaManha => Convert.ToDateTime("08:00");
 
         public DateTime SaidaManha => Convert.ToDateTime("17:00");

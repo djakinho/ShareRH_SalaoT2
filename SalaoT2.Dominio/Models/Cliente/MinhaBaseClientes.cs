@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace SalaoT2.Dominio
 {
-    public class MinhaBaseClientes
+    public class MinhaBaseClientes : IEntity
     {
         public List<Cliente> Clientes { get; set; }
 

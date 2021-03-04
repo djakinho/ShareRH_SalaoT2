@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SalaoT2.Dominio
 {
-    public class MinhaBaseFincanceira
+    public class MinhaBaseFincanceira : IEntity
     {
         public int Id { get; set; }
         public List<Financeiro> Financas { get; set; }

@@ -6,7 +6,7 @@ using static SalaoT2.Dominio.Agendamento;
 
 namespace SalaoT2.Dominio
 {
-    public class MinhaBaseAgendamento
+    public class MinhaBaseAgendamento : IEntity
     {
         public List<Agendamento> Agendamentos { get; set; }
 

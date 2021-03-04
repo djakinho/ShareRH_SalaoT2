@@ -2,7 +2,7 @@
 
 namespace SalaoT2.Dominio
 {
-    public class ServicoSolicitado
+    public class ServicoSolicitado : IEntity
     {
         public int Id { get; set; }
         public Servico Servico { get; set; }

@@ -4,7 +4,7 @@ using static SalaoT2.Dominio.Funcionario;
 
 namespace SalaoT2.Dominio
 {
-    public class MinhaBaseFuncionarios
+    public class MinhaBaseFuncionarios : IEntity
     {
         public List<Funcionario> Funcionarios { get; set; }
 
